@@ -1,0 +1,29 @@
+h1{
+			font-size: 36px;
+			color: lightpink;
+			text-align: center;
+		}
+
+		body{
+			background-color: gray;
+		}
+		.photo{
+			text-align:center ;
+
+		}
+        .menu{
+            color: lightpink;
+            font-size: 20px;
+        		}
+		p{
+			color: lightpink;
+			font-size: 24px;
+		}
+		p1{
+        	color: white;
+        	font-size: 24px;
+        }
+        p2{
+            color: black;
+            ont-size: 12px;
+        }
