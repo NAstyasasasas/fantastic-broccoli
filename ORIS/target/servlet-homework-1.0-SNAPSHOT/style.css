@@ -1,0 +1,167 @@
+h1{
+    font-size: 36px;
+    color: lightpink;
+    text-align: center;
+}
+
+body{
+    background-color: gray;
+}
+.photo{
+    text-align:center ;
+}
+.menu{
+    color: lightpink;
+    font-size: 20px;
+}
+p{
+    color: lightpink;
+    font-size: 24px;
+}
+p1{
+    color: lightpink;
+    font-size: 24px;
+}
+p2{
+    color: black;
+    font-size: 12px;
+}
+
+.slider {
+    width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s;
+}
+.slide {
+    min-width: 100%;
+}
+.slider-btn {
+    background: lightpink;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+form {
+    background: #555;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+}
+.form input, .form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+.submit-btn {
+    background: lightpink;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.news-item {
+    background: #555;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.light-theme {
+    background-color: white;
+}
+.light-theme p,
+.light-theme h1 {
+    color: #333;
+}
+
+.menu a {
+    color: lightpink;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.theme-btn {
+    background: lightpink;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.product-card img {
+    border-radius: 10px;
+}
+
+.product-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #45a049;
+}
+
+.cart-items {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-total {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 2px solid #333;
+}
+
+.cart-total button {
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
